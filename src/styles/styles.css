@@ -1,0 +1,29 @@
+@import url("reset.css");
+.wrapper {
+  min-width: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1046px;
+  margin: 0 auto;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__menu {
+  margin-left: 132px;
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+}
