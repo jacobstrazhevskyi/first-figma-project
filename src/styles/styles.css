@@ -64,6 +64,9 @@
   line-height: calc(24 / 14 * 100%);
   z-index: 101;
 }
+.menu__link:hover {
+  text-decoration: underline;
+}
 @media all and (max-width: 479px) {
   .menu__link {
     font-size: 18px;
@@ -156,6 +159,17 @@
 .main-block__button--orange {
   background: #FF7B47;
   color: #fff;
+}
+.main-block__button--border:hover {
+  transition: all 0.3s;
+  background-color: #0D5C63;
+  color: #fff;
+}
+.main-block__button--orange:hover {
+  transition: all 0.3s;
+  background-color: #fff;
+  color: #FF7B47;
+  border: 1px solid #FF7B47;
 }
 .main-block__image {
   position: absolute;

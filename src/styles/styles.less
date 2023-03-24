@@ -77,6 +77,10 @@
     z-index: 101;
   }
 
+  &__link:hover {
+    text-decoration: underline;
+  }
+
   @media all and (max-width: 479px) {
     &__link {
       font-size: 18px;
@@ -187,6 +191,19 @@
       background: #FF7B47;
       color: #fff;
     }
+  }
+
+  &__button--border:hover {
+    transition: all 0.3s;
+    background-color: #0D5C63;
+    color: #fff;
+  }
+
+  &__button--orange:hover {
+    transition: all 0.3s;
+    background-color: #fff;
+    color: #FF7B47;
+    border: 1px solid #FF7B47;
   }
 
   &__image {
